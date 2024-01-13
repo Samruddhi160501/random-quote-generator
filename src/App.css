@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 28px;
+  margin: 15px 0;
+  color: gray;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Raleway, sans-serif;
+  text-align: right;
+}
+.main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100vw;
+  height: 100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color: #9139b5;
+}
+#quote-box {
+  width: 450px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.actions {
+  display: flex;
+}
+
+.button {
+  background-color: var(--button-color);
+  border: 1px solid var(--button-color);
   color: white;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Raleway, sans-serif;
+  padding: 7px;
+  border-radius: 5px;
+  margin-left: 65%;
+  margin-top: 5px;
+  width: 550px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.custom-icon {
+  margin-left: 10px; 
+  
+    
   }
-  to {
-    transform: rotate(360deg);
-  }
+#tweet-quote{
+  color: inherit; 
 }
